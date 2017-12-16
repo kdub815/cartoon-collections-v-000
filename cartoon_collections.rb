@@ -19,5 +19,5 @@ end
 def find_the_cheese(strings)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strings.detect {|word| word.include?(cheese_types[0..-1])}
+  strings.detect {|word| cheese_types.include?(word)}
 end
