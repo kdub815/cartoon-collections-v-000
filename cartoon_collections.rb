@@ -22,11 +22,6 @@ def long_planeteer_calls(calls)
     word.lenth > 4
   end
   #block returns array with trues and/or falses
-  i = 0
-  return_values = []
-  while i < calls.size
-    yield(call[i])
-
 end
 
 def find_the_cheese# code an argument here
