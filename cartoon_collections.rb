@@ -19,7 +19,7 @@ def long_planeteer_calls(calls)
   #pass element through block
   calls.collect do |word|
   #block tests word length
-    word.lenth > 4
+    word.length > 4
   end
   #block returns array with trues and/or falses
 end
