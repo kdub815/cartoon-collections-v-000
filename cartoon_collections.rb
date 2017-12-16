@@ -17,7 +17,7 @@ def long_planeteer_calls(calls)# code an argument here
   i = 0
   return_values = []
   while i < calls.size
-    return_values << yield(calls[i])
+    return_values << yield(calls[i] < 4)
     i += 1
   end
 
