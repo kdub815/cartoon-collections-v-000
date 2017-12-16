@@ -16,7 +16,7 @@ def long_planeteer_calls(calls)# code an argument here
   # Your code here
 return_values = []
   calls.each do |word|
-    return_values << word > 4
+    word > 4
   end
   return_values
 end
