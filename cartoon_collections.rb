@@ -14,11 +14,6 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-return_values = []
-  calls.each do |word|
-    word > 4
-  end
-  return_values
 end
 
 def find_the_cheese# code an argument here
