@@ -13,8 +13,7 @@ def summon_captain_planet(planeteer_calls)# code an argument here
 end
 
 def long_planeteer_calls(calls)
-  return_values = []
-  calls.collect do |word|
+  calls.detect do |word|
     word.length > 4
   end
 end
