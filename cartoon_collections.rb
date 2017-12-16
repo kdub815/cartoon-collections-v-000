@@ -14,8 +14,16 @@ end
 
 def long_planeteer_calls(calls)# code an argument here
   # Your code here
-  calls.each do |word|
-    word.length > 4
+  i = 0
+  return_values = []
+  while i < calls.size
+    return_values << yield(calls[i])
+    i += 1
+  end
+  
+  if return_values.include?(true)
+      then true
+    else false
   end
 end
 
