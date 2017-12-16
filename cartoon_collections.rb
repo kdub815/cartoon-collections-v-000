@@ -12,8 +12,21 @@ def summon_captain_planet(planeteer_calls)# code an argument here
   end
 end
 
-def long_planeteer_calls(calls)# code an argument here
+def long_planeteer_calls(calls)
   # Your code here
+  #create array for true/false return values
+  return_values = []
+  #pass element through block
+  calls.collect do |word|
+  #block tests word length
+    word.lenth > 4
+  end
+  #block returns array with trues and/or falses
+  i = 0
+  return_values = []
+  while i < calls.size
+    yield(call[i])
+
 end
 
 def find_the_cheese# code an argument here
