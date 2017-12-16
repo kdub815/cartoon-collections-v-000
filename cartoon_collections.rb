@@ -20,7 +20,7 @@ def long_planeteer_calls(calls)# code an argument here
     return_values << yield(calls[i])
     i += 1
   end
-  
+
   if return_values.include?(true)
       then true
     else false
